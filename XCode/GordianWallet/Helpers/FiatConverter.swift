@@ -5,7 +5,6 @@
 //  Created by Peter on 20/04/20.
 //  Copyright © 2020 Blockchain Commons, LLC. All rights reserved.
 //
-
 import Foundation
 
 class FiatConverter {
@@ -18,7 +17,8 @@ class FiatConverter {
     func getFxRate(completion: @escaping ((Double?)) -> Void) {
         
         let torClient = TorClient.sharedInstance
-        let url = NSURL(string: "https://blockchain.info/ticker")
+        let url = NSURL(string: "http://km3danfmt7aiqylbq5lhyn53zhv2hhbmkr6q5pjc64juiyuxuhcsjwyd.onion/now/AUD/binance")
+        
         
         let task = torClient.session.dataTask(with: url! as URL) { (data, response, error) -> Void in
             
@@ -40,13 +40,13 @@ class FiatConverter {
                                 print("json = \(json)")
                                 #endif
                              
-                                if let data = json["USD"] as? NSDictionary {
+                                if let data = json["close"] as? Double {
                                     
-                                    if let rateCheck = data["15m"] as? Double {
+                                    //if let rateCheck = data["15m"] as? Double {
                                             
-                                            completion(rateCheck)
+                                            completion(data)
                                                                                 
-                                    }
+                                    //}
                                     
                                 }
                                 
