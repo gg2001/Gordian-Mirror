@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C63AB21C24E26E2F0017D4CA /* LocaleConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63AB21B24E26E2F0017D4CA /* LocaleConfig.swift */; };
 		D00016B3245ABFFA0091F7CF /* Import.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00016B2245ABFFA0091F7CF /* Import.swift */; };
 		D00016B5245BBB5C0091F7CF /* SeedStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00016B4245BBB5C0091F7CF /* SeedStruct.swift */; };
 		D00016B9245BD89C0091F7CF /* SeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00016B8245BD89C0091F7CF /* SeedParser.swift */; };
@@ -183,6 +184,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C63AB21B24E26E2F0017D4CA /* LocaleConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleConfig.swift; sourceTree = "<group>"; };
 		D00016B2245ABFFA0091F7CF /* Import.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Import.swift; sourceTree = "<group>"; };
 		D00016B4245BBB5C0091F7CF /* SeedStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedStruct.swift; sourceTree = "<group>"; };
 		D00016B8245BD89C0091F7CF /* SeedParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedParser.swift; sourceTree = "<group>"; };
@@ -686,6 +688,7 @@
 				D0A0EAEF23F7C06E004F9E15 /* DescriptorParser.swift */,
 				D0D0F5632410CB8F007E0763 /* BIP39Words.swift */,
 				D047DE0E242DDEB3004BC26D /* LocalNode.swift */,
+				C63AB21B24E26E2F0017D4CA /* LocaleConfig.swift */,
 				D006E34A243ED2FE007B1A5B /* Keychain.swift */,
 				D0502FED244D2D4A00213870 /* FiatConverter.swift */,
 				D00016B8245BD89C0091F7CF /* SeedParser.swift */,
@@ -1151,6 +1154,7 @@
 				D09D736823F0F3C000847DC8 /* MultiSigTxBuilder.swift in Sources */,
 				D006E34B243ED2FE007B1A5B /* Keychain.swift in Sources */,
 				D09D732623F0F3C000847DC8 /* UTXOViewController.swift in Sources */,
+				C63AB21C24E26E2F0017D4CA /* LocaleConfig.swift in Sources */,
 				D09D733C23F0F3C000847DC8 /* CoreDataService.swift in Sources */,
 				D07399DD2461764700860B7E /* XpubConverter.swift in Sources */,
 				D09D736423F0F3C000847DC8 /* RawDisplayer.swift in Sources */,
