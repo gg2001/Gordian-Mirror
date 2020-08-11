@@ -5,6 +5,7 @@
 //  Created by Peter on 20/04/20.
 //  Copyright © 2020 Blockchain Commons, LLC. All rights reserved.
 //
+
 import Foundation
 
 class FiatConverter {
